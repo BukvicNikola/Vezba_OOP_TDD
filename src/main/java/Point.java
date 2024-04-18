@@ -8,6 +8,10 @@ public class Point {
         this.x = x;
         this.y = y;
     }
+    public Point()
+    {
+        
+    }
 
     public Point(double x, double y, boolean selectable) {
         this.x = x;

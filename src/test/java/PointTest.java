@@ -15,5 +15,10 @@ public class PointTest {
         Point test = new Point(4,5,true);
         assertTrue(test.isSelectable());
     }
-    
+    @Test
+    public void testprazankonstruktor()
+    {
+        Point test = new Point();
+        assertNotEquals(test, null);
+    }
 }
