@@ -9,7 +9,7 @@ Zahtevi:\
 
 3. Treci zahtev tacka mora imati prazan Konstruktor.
 
-4. Cetvrti zahtef mora da ima Konstruktor kojim mozemo da inicijalizujemo kordinate tacaka.
+4. Cetvrti zahtev mora da ima Konstruktor kojim mozemo da inicijalizujemo kordinate tacaka.
 
 5. Peti zahtev mora da ima Konstruktor kojim se inicijalizuju svi atributi tacke.
 
