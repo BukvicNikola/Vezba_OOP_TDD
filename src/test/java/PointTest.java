@@ -6,5 +6,14 @@ public class PointTest {
     public void test_getXTrebaDaVrati5AkoJeKlasaInstanciranaSaXjednako5() {
         Point test = new Point(5, 5);
         assertEquals(test.getX(), 5);
+        assertEquals(test.getY(), 5);
     }
+
+    @Test
+    public void testbulean()
+    {
+        Point test = new Point(4,5,true);
+        assertTrue(test.isSelectable());
+    }
+    
 }
